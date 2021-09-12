@@ -32,12 +32,16 @@ body {
 }
 
 .container {
-  width: 70%;
-  height: 446px;
+  max-width: 1120px;
+  max-height: 446px;
   margin: 15rem 0 15rem 0;
   background-color: var(--card-background-clr);
   border-radius: 5px;
   display: flex;
+}
+
+#information-section {
+  max-width: 580px; 
 }
 
 #image {
@@ -46,11 +50,11 @@ body {
 }
 
 #title {
-  font-size: 2.5rem;
-  font-weight: 900;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
   color: var(--heading-and-stats);
-  padding: 5rem 0 0 6rem;
-  margin-right: 15rem;
+  margin: 4.5rem 8rem 0 4.5rem;
 }
 
 #highlighted-text {
@@ -59,20 +63,20 @@ body {
 
 #description {
   color: var(--info-clr);
-  font-size: 1rem;
+  font-size: .9375rem;
+  font-weight: 400;
   line-height: 1.6;
-  padding: 2rem 17rem 0 6rem;
+  margin: 1.7rem 8rem 0 4.5rem;
 }
 
 #stats {
   display: flex;
   font-family: var(--ff-lexend);
-  padding-left: 6rem;
-  padding-top: 3.5rem;
+  margin: 4.7rem 0 0 4.5rem;
 }
 
 .stats-item + .stats-item {
-  margin-left: 4.5rem;
+  margin-left: 3.3rem;
 }
 
 .number {
@@ -80,9 +84,12 @@ body {
   font-family: var(--ff-inter);
   font-weight: 700;
   color: var(--heading-and-stats);
+  padding-bottom: 0.3rem;
 }
 
 .text {
   color: var(--stats-description);
-  font-size: 1rem;
+  font-size: .9375rem;
+  font-weight: 400;
+  font-size: .9375rem;
 }
