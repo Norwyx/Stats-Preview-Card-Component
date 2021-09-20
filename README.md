@@ -2,7 +2,7 @@
 
 A responsive stats preview card. This page was built as a front-end project of [Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
 
-- [Page](https://norwyx.github.io/Stats-Preview-Card-Component/) - Final result of the project
+- [Page](https://norwyx.github.io/stats-preview-card/) - Final result of the project
 
 ![Stats Preview Card](./images/final-results.png)
 
